@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ciulu AWB</title>
+  <style>
+    html, body {
+      margin: 0px;
+      height: 100%;
+      
+
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+    }
+
+    p {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      font-family: Arial;
+      color: rgb(16, 50, 90);
+      font-size: 12px;
+      font-weight:500;
+
+    }
+
+    .order-svg {
+      margin-top: 30px;
+      margin-bottom: 20px;
+      width: 220px;
+      height: auto;
+
+    }
+
+    .status-paragraph {
+      text-align: left;
+      font-weight: normal;
+      font-size: 16px;
+
+    }
+
+    .expediere-container {
+      display: flex;
+
+    }
+
+    .cross-svg {
+      height: 16px;
+      width: 16px;
+      margin-right: 0px;
+      margin-left: 25px;
+      margin-right: 15px;
+      cursor: pointer;
+
+    }
+
+
+    .details-card-container {
+      background-color: rgb(234, 237, 244);
+        
+    }
+
+
+    .id-paragraph {
+      padding-top: 25px;
+      padding-bottom: 20px;
+      font-size: 20px;
+      font-weight: bold;
+
+    }
+
+    .pin-paragraph {
+      font-size: 14px;
+      margin-bottom: 5px;
+
+    }
+
+    .pin {
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 20px;
+
+    }
+
+    .bar-breaker {
+      background-color: white;
+      padding: 3px 10px 3px 150px;
+      border-radius: 10px;
+      border: none;
+      margin-bottom: 15px;
+      display: inline-block;
+
+    }
+
+    .last-status {
+      font-size: 12px;
+      margin-bottom: 40px;
+      font-weight: 600;
+
+    }
+
+    .details-card-container {
+      padding-left: 30px;
+      border-radius: 10px;
+      padding-right: 30px;
+      padding-top: 0px;
+      padding-bottom: 40px;
+
+
+    }
+
+
+    .modify-button {
+      padding-top: 18px;
+      padding-bottom: 18px;
+      padding-left: 75px;
+      padding-right: 75px;
+      border: none;
+      background-color: rgb(16, 50, 90);
+      border-radius: 10px;
+      color: rgb(234, 237, 244);
+      cursor: pointer;
+
+    }
+
+    .buttons-container {
+      margin-top: 10px;
+
+    }
+
+    .status-button {
+      background-color: rgb(16, 50, 90);
+      color: rgb(234, 237, 244);
+      
+
+    }
+
+    .status-button, .details-button {
+      border: none;
+      padding: 10px 35px 10px 35px;
+      border-radius: 20px;
+      cursor: pointer;
+
+    }
+  </style>
+
+</head>
+<body>
+  <div class="form-container">
+    <div class="status-container">
+      <div class="title-container">
+        <div class="expediere-container">
+          <img class="cross-svg" src="close.png"> 
+          <p class="status-paragraph">Status expediere</p>
+        </div>
+       
+      </div>
+      <div class="svg-container">
+        <img class="order-svg" src="order-status.png">
+      </div>
+    </div>
+
+    <div class="details-container">
+      <div class="details-card-container">
+        <div class="order-identifier">
+          <p class="id-paragraph">AWB 2400033858924</p>
+
+        </div>
+        <div class="order-pin">
+          <p class="pin-paragraph">Pin pentru confirmare</p>
+          <p class="pin">X2436</p>
+        </div>
+
+        <div class="bar-breaker">
+
+        </div>
+
+        <p class="last-status">Ultimul status al expedierii din<br> 30-08-2024: Expeditie in livrare</p>
+
+        <button class="modify-button">Modifică sau refuză</button>
+      </div>
+      <div class="buttons-container">
+        <button class="status-button">Status</button>
+        <button class="details-button">Detalii</button>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
